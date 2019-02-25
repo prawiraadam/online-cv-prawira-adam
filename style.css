@@ -1,0 +1,171 @@
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p{
+	font-size: 20px;
+}
+
+li, li a {
+	font-size: 18px;
+}
+
+nav{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	box-shadow: 0px 3px 5px grey;
+}
+
+ul{
+	display: flex;
+	margin-right: 30px;
+	list-style: none;
+}
+
+li a{
+	margin: 0;
+	margin-left: 40px;
+	color: black;
+	list-style: none;
+	text-decoration: none;
+}
+
+li{
+	margin: 0;
+	margin-left: 40px;
+	color: black;
+	list-style: none;
+}
+
+#intro{
+	display: flex;
+}
+
+.foto{
+	width: 30%;
+	height: 721px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+.foto img{
+	width: 100%;
+}
+
+.nama{
+	width: 70%;
+	height: 721px;
+	padding-top: 20%;
+	padding-left: 10%;
+}
+
+#about{
+	width: 100%;
+	height: 350px;
+	background-color: #858585;
+	text-align: center;
+	padding-top: 2%;
+	box-shadow: 0px 3px 3px #3E3E3E;
+}
+
+.teksabout{
+	width: 40%;
+	height: 5%;
+	margin-left: 31%;
+	text-align: justify;
+}
+
+#edu{
+	width: 100%;
+	height: 350px;
+	text-align: center;
+	padding-top: 2%;
+}
+
+
+#skills{
+	width: 100%;
+	height: 350px;
+	background-color: #858585;
+	text-align: center;
+	padding-top: 2%;
+	box-shadow: 0px 3px 3px #3E3E3E;
+}
+
+.bar1, .bar2, .bar3{
+	width: 40%;
+	background-color: #2D2D2D;
+	border-radius: 5px;
+	margin-left: 30%;
+}
+
+.percentage1{
+	width:80%;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.percentage2{
+	width:70%;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.percentage3{
+	width:50%;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#contact{
+	width: 100%;
+	height: 350px;
+	text-align: center;
+	padding-top: 2%;
+}
+
+#contact ul{
+	margin-top: 2%;
+	margin-left: 21%;
+}
+
+footer{
+	width: 100%;
+	height: 150px;
+	background-color: #858585;
+}
+
+footer ul{
+	padding-top: 4%;
+	margin-left: 39.8%;
+}
+
+footer li a{
+	margin: 0;
+	color: black;
+	list-style: none;
+}
+
+footer p{
+	margin-top: 2%;
+	font-size: 14px;
+	text-align: center;
+}
+
+.fab{
+	font-size: 31px;
+	color: black;
+}
